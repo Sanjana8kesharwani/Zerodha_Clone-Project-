@@ -6,5 +6,4 @@ This project is a Zerodha Clone, a simulation of a stock trading platform that p
 
 
 
-# Zerodha_Clone-Project-
-# Zerodha_Clone
+
