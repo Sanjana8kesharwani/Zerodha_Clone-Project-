@@ -7,10 +7,7 @@ You can access the live version of the project here: https://zerodha-clone-proje
 
 # Project Structure
 
-Zerodha-Clone/
-  ├── backend/      # Handles User, holdings, stocks data
-  ├── dashboard/    # User specific dashboard interface
-  └── frontend/     # Client-side user interface
+<pre> Zerodha-Clone/ ├── backend/ # Handles User, holdings, stocks data ├── dashboard/ # User specific dashboard interface └── frontend/ # Client-side user interface </pre>
 
 
   # Technologies Used
