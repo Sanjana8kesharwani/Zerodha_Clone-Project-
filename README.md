@@ -15,11 +15,11 @@ Zerodha-Clone/
 
   # Technologies Used
 
- React.js for building the user interface
-Node.js for backend services
-Express for server-side logic
-MongoDB for data storage
-Chart.js for making charts
+. React.js for building the user interface
+.Node.js for backend services
+.Express for server-side logic
+.MongoDB for data storage
+.Chart.js for making charts
 
 
 
