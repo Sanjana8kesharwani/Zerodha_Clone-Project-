@@ -46,7 +46,7 @@ function Login() {
                 });
                 if (response.ok) {
                     setFormData({ name: '', email: '', phone: '', password: '' });
-                    window.location.href = 'https://zerodha-clone-dashboard-xx4e.onrender.com';
+                    window.location.href = "https://zerodha-clone-project-dashboard.onrender.com";
                 } else {
                     const errorData = await response.json();
                     setSubmitError(errorData.message || 'Login failed');
