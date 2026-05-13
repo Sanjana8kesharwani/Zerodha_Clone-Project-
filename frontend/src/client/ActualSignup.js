@@ -53,14 +53,14 @@ function ActualSignup() {
         e.preventDefault();
         if (validate()) {
             try {
-                const response = await fetch('http://localhost:3002/signup', {
+                const response = await fetch('https://zerodha-clone-project-backend-1g2o.onrender.com/signup', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData)
                 });
                 if (response.ok) {
                     setFormData({ name: '', email: '', phone: '', password: '' }); // Reset form
-                    window.location.href = 'http://localhost:3000/';
+                    window.location.href = 'https://zerodha-clone-project-backend-1g2o.onrender.com/login';
                 } else {
                     const errorData = await response.json();
                     setSubmitError(errorData.message || 'Signup failed');
